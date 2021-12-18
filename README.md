@@ -27,12 +27,16 @@ Once installed:
 1. ``ln -s /etc/fonts/conf.avail/11-lcdfilter-default.conf /etc/fonts/conf.d/``
 
 
-2. - Settings -> Appearence -> Fonts
-    - Default Font: Ubuntu Regular 11px
-    - Default Monospace Font: Cascadia Mono Regular 11px
-    - Rendering -> Enable anti-aliasing: true
-    - Hinting: Slight
-    - Sub-pixelorder: RGB
+2.  - XFCE
+        - Settings -> Appearence -> Fonts
+        - Default Font: Ubuntu Regular 11px
+        - Default Monospace Font: Cascadia Mono Regular 11px
+        - Rendering -> Enable anti-aliasing: true
+        - Hinting: Slight
+        - Sub-pixelorder: RGB
+
+     - Gnome
+        ``gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing rgba``
   
  
 3. - Create the local fonts.conf file (~/.config/fontconfig/fonts.conf)
