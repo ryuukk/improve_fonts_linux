@@ -37,7 +37,7 @@ Once installed:
  
 3. - Create the local fonts.conf file (~/.config/fontconfig/fonts.conf)
    - Paste content from below
-   - `fc-cache -f``
+   - ``fc-cache -f``
    - reboot
 
 ```xml
