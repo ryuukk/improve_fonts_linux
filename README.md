@@ -36,7 +36,7 @@ Once installed:
         - Sub-pixelorder: RGB
 
      - Gnome
-        ``gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing rgba``
+        - ``gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing rgba``
   
  
 3. - Create the local fonts.conf file (~/.config/fontconfig/fonts.conf)
