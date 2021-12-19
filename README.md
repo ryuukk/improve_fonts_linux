@@ -32,8 +32,7 @@ Once installed:
     - Default Monospace Font: Cascadia Mono Regular 11px
     - Rendering -> Enable anti-aliasing: true
     - Hinting: Slight
-    - Sub-pixelorder: RGB
-    - ( if you are on gnome: ``gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing rgba`` )
+    - Sub-pixelorder: RGB ( if you are on gnome: ``gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing rgba`` )
   
  
 3. - Create the local fonts.conf file (~/.config/fontconfig/fonts.conf)
